@@ -1,7 +1,8 @@
 # webdav
 Ejemplo docker-compose:
 
-  webdav:
+```
+webdav:
     image: adanton/webdav:armv7
     container_name: webdav
     restart: unless-stopped
@@ -13,3 +14,4 @@ Ejemplo docker-compose:
       - AUTH_TYPE=Basic
       - USERNAME=webdav
       - PASSWORD=webdav
+```
